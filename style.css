@@ -1,0 +1,76 @@
+
+
+
+.main{
+    max-width: 98%;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.main>h1{
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 10px;
+}
+h1>img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.child{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 15px;
+}
+.question{
+    max-width: 95%;
+   
+    margin: auto;
+}
+.options{
+    max-width: 95%;
+    
+   
+    margin: auto;
+}
+.option-list{
+    border: 2px solid grey;
+    margin: 5px;
+    border-radius: 5px;
+    padding:20px;
+    padding-top: 15px;
+}
+.option-list:hover{
+    background-color: gainsboro;
+}
+
+.btn{
+    
+    text-align: center; /* Centers content horizontally */
+    
+}
+.btn>button{
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn>button:hover{
+    background-color: rgb(29, 27, 27);
+    
+}
+.disabled {
+    pointer-events: none;
+
+}
+
+
